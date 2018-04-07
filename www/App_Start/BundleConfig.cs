@@ -6,8 +6,9 @@ namespace www
     {
         public static void RegisterBundles(BundleCollection Bundles)
         {
-            bundles.Add(new StyleBundle("~/Styles").Include(
-                      "~/Content/custom.css"));
+            Bundles.Add(new StyleBundle("~/Styles").Include(
+                "~/Style/custom.css",
+                "~/Style/coming-soon.min.css"));
         }
     }
 }
