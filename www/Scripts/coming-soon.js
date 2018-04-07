@@ -3,8 +3,8 @@
 
   // Vide - Video Background Settings
   $('body').vide({
-    mp4: "Videos/coming-soon.mp4",
-    poster: "Images/coming-soon.jpg"
+    mp4: "../Videos/coming-soon.mp4",
+    poster: "../Images/coming-soon.jpg"
   }, {
     posterType: 'jpg'
   });
